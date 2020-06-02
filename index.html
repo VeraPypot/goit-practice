@@ -4,84 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="site-header">
       <nav>
         
-      <a href="/">
-        <img src="" alt="Company logo" width="122" height="32">
+      <p class="test">Test paragraph</p>
+      <a class="logo" href="#anchor">
+        <img src="./images/placeholder.png" alt="" width="122" height="32">
+        photo
       </a>
 
-      <ul>
-        <li><a href="">Features</a></li>
-        <li><a href="">Pricing</a></li>
-        <li><a href="">Community</a></li>
-        <li><a href="">Support</a></li>
+      <ul class="list">
+        <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="link" href="">Pricing</a></li>
+        <li><a class="link" href="">Community</a></li>
+        <li><a class="link" href="">Support</a></li>
       </ul>
 
-      <a href="">Log in</a>
-      <a href="">Register</a>
+      <a class="button-secondary" href="">Log in</a>
+      <a class="button-primary" href="">Register</a>
 
       </nav>
     </header>
 
     <main>
-      <section>
-        <ul>
-          <li>
-            <img src="" alt="List item 1" width="750" height="440">
-            <h3>Sed ut perspiciatis unde omnis</h3>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-          </li>
-          <li>
-            <img src="" alt="List item 1" width="750" height="440">
-            <h3>Sed ut perspiciatis unde omnis</h3>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-          </li>
-        </ul>
-        <h2>Invisible heading</h2>
-      </section>
-
-      <section>
-        <h2>Articles</h2>
-
-        <ul>
-          <li>
-            <article>
-              <figure>
-                <img src="" alt="Illustration">
-                <figcaption>Text for the illustration</figcaption>
-              </figure>
-              <h3>Heading of the article</h3>
-              <p>Some long text....</p>
-              <figure>
-                <img src="" alt="Illustration">
-                <figcaption>Text for the illustration</figcaption>
-              </figure>
-              <p>Some long text....</p>
-              <h4>Subtitle for the article</h4>
-              <p>Some long text....</p>
-              <p>Some long text....</p>
-            </article>
-          </li>
-        </ul>
-      </section>
 
       <!-- Герой -->
       <section>
-        <h1>The largest community of photo enthusiasts</h1>
-        <a href="">Join today</a>
+        <h1 class="hero-title">The largest community of photo enthusiasts</h1>
+        <a class="button-primary" href="">Join today</a>
       </section>
 
       <!-- Преимущества -->
-      <section>
-        <h2>Snap photos and share like <br />never before</h2>
+      <section class="features">
+        <h2 class="section-title features-title">Snap photos and share like <br />never before</h2>
 
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Sed ut perspiciatis</h3>
+            <h3 class="item-title">Sed ut perspiciatis</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, <span class="attention">sed quia consequuntur</span> magni dolores eos qui ratione
@@ -90,7 +54,7 @@
             <a href="">Learn more</a>
           </li>
           <li>
-            <h3>Lorem ipsum dolor</h3>
+            <h3 class="item-title">Lorem ipsum dolor</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -99,7 +63,7 @@
             <a href="">Learn more</a>
           </li>
           <li>
-            <h3>Nemo enim ipsam</h3>
+            <h3 class="item-title">Nemo enim ipsam</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -108,7 +72,7 @@
             <a href="">Learn more</a>
           </li>
           <li>
-            <h3>Tempor incididunt</h3>
+            <h3 class="item-title">Tempor incididunt</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -147,8 +111,8 @@
 
       <!-- Testimonials -->
       <section>
-        <h2>You’re in good company</h2>
-        <p>
+        <h2 class="features-title">You’re in good company</h2>
+        <p id="anchor">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
